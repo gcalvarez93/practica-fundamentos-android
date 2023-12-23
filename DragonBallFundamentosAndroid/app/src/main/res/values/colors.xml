@@ -2,8 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="orange_dragon">#FF8C00</color>
-    <color name="blue_dragon">#00008B</color>
-    <color name="red_dragon">#FF3C00</color>
-    <color name="green_dragon">#75B500</color>
+    <color name="orange_dragon_ball">#FF8C00</color>
+    <color name="red_dragon_ball">#FF3C00</color>
+    <color name="green_dragon_ball">#75B500</color>
 </resources>

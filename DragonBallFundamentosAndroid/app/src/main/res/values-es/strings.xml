@@ -9,7 +9,7 @@
     <string name="heroes_list_title">Selecciona tu heroe</string>
     <string name="fight_heal">CURAR</string>
     <string name="fight_attack">ATACAR</string>
-    <string name="fight_title">La lucha ya ha comenzado!</string>
+    <string name="fight_title">Dragon Ball</string>
     <string name="alert_dialog_title">Todos los heroes serán curados. ¿Continuar?</string>
     <string name="alert_dialog_cancel">Cancelar</string>
     <string name="alert_dialog_yes">Si</string>

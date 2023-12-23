@@ -35,8 +35,6 @@ class FightFragment : Fragment() {
 
         viewLifecycleOwner.lifecycleScope.launch {
             homeViewModel.uiState.collect {
-                //TODO Preguntar por que eso funciona
-                //  binding.tvFigterName.text = (it as CoreViewModel.UiStateCA.OnHeroeSelectedToFight).heroe.name
                 binding.tvFigterName.text = homeViewModel.selectedHeroe.name
                 Picasso.get().load(homeViewModel.selectedHeroe.photo).into(binding.ivFighter)
                 binding.pbFighterHitPoints.max = homeViewModel.selectedHeroe.totalHitPoints

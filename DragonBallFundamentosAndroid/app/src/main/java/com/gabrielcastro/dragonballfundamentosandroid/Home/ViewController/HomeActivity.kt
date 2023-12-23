@@ -43,7 +43,7 @@ class HomeActivity : AppCompatActivity() {
                     is HomeViewModel.UiStateCA.OnHeroesRetrieved -> {
                         addHeroesListFragment()
                         binding.tvTitle.text = getString(R.string.fight_title)
-                    }//TODO se obtiene el listado de heroes bien
+                    }//Obtenemos el listado de Héroes
                     is HomeViewModel.UiStateCA.Error -> Log.w("TAG", "Error en UiState")
                     is HomeViewModel.UiStateCA.OnHeroeSelectedToFight -> {
                         addFragmentTwo()
@@ -72,14 +72,14 @@ class HomeActivity : AppCompatActivity() {
             .replace(
                 binding.fFragment.id,
                 HeroesListFragment()
-            ) //TODO pass context in here if needed
+            )
             .commitNow()
     }
 
     private fun addFragmentTwo() {
         supportFragmentManager
             .beginTransaction()
-            .replace(binding.fFragment.id, FightFragment()) //TODO pass context in here if needed
+            .replace(binding.fFragment.id, FightFragment()) // pass context here if needed
             .commitNow()
 
     }

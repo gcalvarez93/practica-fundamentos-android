@@ -65,11 +65,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:background="@color/blue_dragon"
+                android:background="@color/orange_dragon_ball"
                 android:fontFamily="monospace"
                 android:padding="10dp"
                 android:text="LogIn"
-                app:backgroundTint="@color/blue_dragon" />
+                app:backgroundTint="@color/orange_dragon_ball" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 </FrameLayout>

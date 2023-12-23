@@ -44,7 +44,7 @@
         android:elevation="10dp"
         android:indeterminateTint="#FF7800"
         android:padding="10dp"
-        android:progressTint="@color/green_dragon"
+        android:progressTint="@color/green_dragon_ball"
         app:layout_constraintBottom_toBottomOf="@id/ivHeroePicture"
         app:layout_constraintEnd_toEndOf="@id/ivHeroePicture"
         app:layout_constraintStart_toStartOf="@+id/ivHeroePicture" />

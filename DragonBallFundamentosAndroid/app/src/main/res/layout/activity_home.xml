@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_dragon"
+    android:background="@color/orange_dragon_ball"
     tools:context=".Home.ViewController.HomeActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:fontFamily="monospace"
         android:text="@string/heroes_list_title"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/fFragment"
         app:layout_constraintEnd_toEndOf="parent"

@@ -72,7 +72,7 @@
                 android:layout_margin="10dp"
                 android:fontFamily="monospace"
                 android:text="@string/login_login"
-                app:backgroundTint="@color/orange_dragon" />
+                app:backgroundTint="@color/orange_dragon_ball" />
 
         </LinearLayout>
 

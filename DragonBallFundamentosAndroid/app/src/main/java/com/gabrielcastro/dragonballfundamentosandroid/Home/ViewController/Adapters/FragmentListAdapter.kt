@@ -14,7 +14,7 @@ interface onClickGridItem {
 }
 
 class FragmentListAdapter(
-    //TODO proably i should add viewmodel.heroesList
+
     private val heroesList: List<Heroe>,
     private val callback: onClickGridItem
 ) : RecyclerView.Adapter<FragmentListAdapter.HeroesListFragmentViewHolder>() {
@@ -50,15 +50,12 @@ class FragmentListAdapter(
         private val callback: onClickGridItem
     ) : RecyclerView.ViewHolder(item.root) {
         fun showHeroes(heroe: Heroe) {
-            //   item.ivHeroePicture.image //TODO Instalar Picasso para poder mostrar las imagenes bien
             item.tvName.text = heroe.name
             Picasso.get().load(heroe.photo).into(item.ivHeroePicture)
-            //TODO addd a method to calculate the hp % and add it to the progressbar
+            // Creamos un método para calcular la salud y añadirla al ProgressBar
             item.pbHitPoint.max = heroe.totalHitPoints
             item.pbHitPoint.progress = heroe.currentHitPoints
             item.heroeCell.setOnClickListener {
-                //   Toast.makeText(item.root.context, "El luchador es ${heroe.name}", Toast.LENGTH_LONG).show()
-
                 callback.onClick(heroe)
             }
 
@@ -72,7 +69,7 @@ class FragmentListAdapter(
                 item.tvName.setTextColor(
                     ContextCompat.getColor(
                         item.tvName.context,
-                        R.color.red_dragon
+                        R.color.red_dragon_ball
                     )
                 )
 

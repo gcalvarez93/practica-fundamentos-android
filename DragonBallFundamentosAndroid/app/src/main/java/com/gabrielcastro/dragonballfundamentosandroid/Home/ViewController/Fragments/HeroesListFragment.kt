@@ -39,13 +39,11 @@ class HeroesListFragment : Fragment(), onClickGridItem {
         setFloatingHealAllHeroesButton()
 
         val adapter = FragmentListAdapter(homeViewModel.heroesList, this)
-        // binding.rvHeroesList.layoutManager = LinearLayoutManager(binding.rvHeroesList.context)
         binding.rvHeroesList.layoutManager = GridLayoutManager(binding.rvHeroesList.context, 2)
         binding.rvHeroesList.adapter = adapter
 
         viewLifecycleOwner.lifecycleScope.launch {
             homeViewModel.uiState.collect {
-                //TODO add the listVIewRefreshermethod in here
                 adapter.notifyDataSetChanged()
             }
         }
@@ -70,7 +68,6 @@ class HeroesListFragment : Fragment(), onClickGridItem {
         builder.setTitle(R.string.alert_dialog_title)
 
         builder.setPositiveButton(getString(R.string.alert_dialog_yes)) { dialogInterface, which ->
-            //Toast.makeText(binding.fabHealAllHeroes.context,"clicked yes", Toast.LENGTH_LONG).show()
             alertHealAllHeroesClicked()
         }
         builder.setNegativeButton(getString(R.string.alert_dialog_cancel)) { dialogInterface, which ->
@@ -82,13 +79,13 @@ class HeroesListFragment : Fragment(), onClickGridItem {
         alertDialog.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(
             ContextCompat.getColor(
                 binding.fabHealAllHeroes.context,
-                R.color.red_dragon
+                R.color.red_dragon_ball
             )
         )
         alertDialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(
             ContextCompat.getColor(
                 binding.fabHealAllHeroes.context,
-                R.color.green_dragon
+                R.color.green_dragon_ball
             )
         )
     }
