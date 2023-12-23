@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_login">Correo Electrónico</string>
+    <string name="password_login">Contraseña</string>
+    <string name="login_login">Acceder</string>
+    <string name="store_user_login">¿Almacenar los datos de aceso?</string>
+    <string name="login_data_removed">Datos de acceso eliminados.</string>
+    <string name="login_data_saved">Datos de acceso almacenados.</string>
+    <string name="heroes_list_title">Selecciona tu heroe</string>
+    <string name="fight_heal">CURAR</string>
+    <string name="fight_attack">ATACAR</string>
+    <string name="fight_title">La lucha ya ha comenzado!</string>
+    <string name="alert_dialog_title">Todos los heroes serán curados. ¿Continuar?</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="alert_dialog_yes">Si</string>
+    <string name="times_selected_string">Veces seleccionado:</string>
+</resources>

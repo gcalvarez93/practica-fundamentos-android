@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">DragonBallFundamentosAndroid</string>
+    <string name="app_name" translatable="false">DragonBallFundamentosAndroid</string>
+    <string name="email_login">E-mail</string>
+    <string name="password_login">Password</string>
+    <string name="login_login">LogIn</string>
+    <string name="store_user_login">Save login data?</string>
+    <string name="login_data_removed">Login data removed.</string>
+    <string name="login_data_saved">Login data saved.</string>
+    <string name="heroes_list_title">Choose your hero!</string>
+    <string name="fight_heal">CURE</string>
+    <string name="fight_attack">ATTACK</string>
+    <string name="fight_title">The fight has already started!</string>
+    <string name="alert_dialog_title">All heroes will be cured. ¿Continue?</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_yes">Yes</string>
+    <string name="times_selected_string">Times selected:</string>
+    <string name="fight_fragment" translatable="false">Fight fragment</string>
+    <string name="todo" translatable="false">TODO</string>
+
 </resources>
